@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+  <meta charset="UTF-8">
+  <title>Waxom | Homepage</title>
+</head>
 <body>
 
 <!-- HEADER -->
+<header class="header">
   <div class="container clearfix">
     <div class="brand">
-      <img src="logo.png">
-      <h1>Waxom Company</h1>
+      <img class="brand_logo" src="logo.png" alt="Waxom Logo" width="180">
+      <h1 class="brand_name">Waxom Company</h1>
     </div>
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href="#">Home</a>
+    <nav class="navigation-menu">
+      <ul class="navigation navigation-main">
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Home</a>
         </li>
-        <li>
-          <a href="#">About Us</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">About Us</a>
         </li>
-        <li>
-          <a href="#">Portfolio</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Portfolio</a>
         </li>
-        <li>
-          <a href="#">Features</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Features</a>
         </li>
-        <li>
-          <a href="#">Blog</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Blog</a>
         </li>
-        <li>
-          <a href="#">Pricing</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Pricing</a>
         </li>
-        <li>
-          <a href="#">Shortcodes</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Shortcodes</a>
         </li>
-        <li>
-          <a href="#">Contact</a>
+        <li class="navigation_item">
+          <a href="#" class="navigation_link">Contact</a>
         </li>
       </ul>
     </nav>
+    <div class="toolsbar">
+      <!-- Cart block -->
+      <div class="cart">
+          <i class="cart_icon"></i>
+      </div>
+      <!-- Search block -->
+      <div class="search">
+          <i class="search_icon"></i>
+      </div>
+    </div>
   </div>
+</header>
 <!-- /HEADER -->
+
+<!-- SLIDER -->
+
+<!-- /SLIDER -->
   
